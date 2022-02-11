@@ -1,6 +1,6 @@
-# 1.2. 신경망 추론
+# 1.2 신경망 추론
 
-# 1.2.1. 신경망 추론 전체 그림
+# 1.2.1 신경망 추론 전체 그림
 import numpy as np
 W1 = np.random.randn(2, 4)   # 가중치
 b1 = np.random.randn(4)      # 편향
@@ -27,7 +27,7 @@ h = np.matmul(x, W1) + b1
 a = sigmoid(h)
 s = np.matmul(a, W2) + b2
 
-# 1.2.2. 계층으로 클래스화 및 순전파 구현
+# 1.2.2 계층으로 클래스화 및 순전파 구현
 from CH01.forward_net import *
 
 a = ['A', 'B']
